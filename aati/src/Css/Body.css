@@ -1,0 +1,36 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Body.css */
+
+.bg-custom-blue {
+    background: var(--Logo-Blue, #0071BD);
+    width: 220px;
+height: 60px;
+flex-shrink: 0; 
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .main-box {
+    background: linear-gradient(89deg, rgba(0, 0, 0, 0.58) 0.5%, rgba(0, 0, 0, 0.13) 55.62%), url('../Svg/3b2bf8c648b93a8ac7b2eb48e64e0888.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 50px;
+    height: 642px;
+    flex-shrink: 0;
+  }
+  
+  /* ... Other styles ... */
+  
