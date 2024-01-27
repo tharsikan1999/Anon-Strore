@@ -1,0 +1,17 @@
+/* PopButton.css */
+
+.pop-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db; /* Set your button's background color */
+    color: #fff; /* Set your button's text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pop-button.hovered {
+    transform: scale(1.1); /* Adjust the scale factor for the pop effect */
+  }
+  
