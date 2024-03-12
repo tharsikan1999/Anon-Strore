@@ -1,0 +1,432 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* login */
+
+.main-box-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    background: #ffffffad;
+    position: absolute;
+    overflow: hidden;
+    z-index: 999;
+    
+}
+
+.sub-box-social-login {
+    box-shadow:1px 1px 3px 2.5px #5E5DF0;
+    width: 400px;
+    height: 400px; 
+    padding:  0 0 0 30px;
+    background-color: #fff;
+    
+    
+}
+
+.sub-box-social-login .Login-to {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
+
+.social-login-box img{
+    height: 100px 0 30px 0;
+
+}
+
+.logo-for-social-login {
+    height: 50px;
+    margin: 30px 0;
+}
+
+.main-box-login #emailaddress {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 20px 0 20px 0;
+    background-color: rgba(255, 251, 251, 0.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+
+.main-box-login #Passwords {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 5px 0 25px 0;
+    background-color: rgba(255, 251, 251, 0.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+
+
+#loginbutton {
+    height: 30px ;
+    width: 90px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #5E5DF0;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#loginbutton:hover {
+    background-color: #fff;
+    border: 3px  solid #5E5DF0;
+    
+    transition:background-color 0.5s;
+    font-size: 19px;
+    
+}
+
+.main-box-login span {
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.557);
+    margin: 0 0 0 10px;
+}
+
+.main-box-login span:hover {
+    cursor: pointer;
+    color: black;
+    
+}
+
+#paragraph-login {
+    margin: 40px 0 20px 0;
+    font-size: 16px;
+    font-weight: 550;
+    
+    
+}
+.social-login-box {
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    align-items: center;
+    
+}
+.social-login-box p {
+    margin: 0 0 0 5px ;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.821);
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Google-login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.github-login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.facebook-login img,.github-login img,.Google-login img {
+    height: 23px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+.facebook-login img:hover,.github-login img:hover,.Google-login img:hover {
+    scale: 1.3;
+    transition: scale 0.5s;
+    
+    
+}
+
+#Register-new-account {
+    margin: 25px 0 30px 70px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#Register-new-account:hover {
+
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.611);
+
+}
+
+
+.login-close-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#login-faclose {
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.854);
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+#login-faclose:hover {
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+
+
+/* sign up */
+
+.main-box-Signup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffffad;
+    display: none;
+    overflow: hidden;
+    z-index: 999;
+    position: absolute;
+}
+
+.sub-box-social-Signup {
+    box-shadow:1px 1px 3px 2.5px #5E5DF0;
+    width: 400px;
+    height: 520px; 
+    padding:  0 0 0 30px;
+    background-color: #fff;
+    
+    
+}
+
+.sub-box-social-Signup .Signup-to {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
+
+.social-Signup-box img{
+    height: 100px 0 30px 0;
+
+}
+
+.logo-for-social-Signup {
+    height: 50px;
+    margin: 10px 0 20px 0;
+}
+
+.main-box-Signup #emailaddress {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 20px 0 20px 0;
+    background-color: rgba(255, 251, 251, 0.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+
+.main-box-Signup #Passwords {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 0 0 20px 0;
+    background-color: rgba(255, 251, 251, 0.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+.main-box-Signup #firstName {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 20px 0 5px 0;
+    background-color: rgba(255, 251, 251, 1.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+.main-box-Signup #lastName {
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    font-size: 17px;
+    outline: none;
+    margin: 10px 0 0 0;
+    background-color: rgba(255, 251, 251, 0.695);
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 7px;
+}
+
+
+#Signupbutton {
+    height: 30px ;
+    width: 90px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #5E5DF0;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#Signupbutton:hover {
+    background-color: #fff;
+    border: 3px  solid #5E5DF0;
+    
+    transition:background-color 0.5s;
+    font-size: 19px;
+    
+}
+
+.main-box-Signup span {
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.557);
+    margin: 0 0 0 10px;
+}
+
+.main-box-Signup span:hover {
+    cursor: pointer;
+    color: black;
+    
+}
+
+#paragraph-Signup {
+    margin: 40px 0 20px 0;
+    font-size: 16px;
+    font-weight: 550;
+    
+    
+}
+.social-Signup-box {
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    align-items: center;
+    
+}
+.social-Signup-box p {
+    margin: 0 0 0 5px ;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.821);
+}
+
+.facebook-Signup {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Google-Signup {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.github-Signup {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.facebook-Signup img,.github-Signup img,.Google-Signup img {
+    height: 23px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+.facebook-Signup img:hover,.github-Signup img:hover,.Google-Signup img:hover {
+    scale: 1.3;
+    transition: scale 0.5s;
+    
+    
+}
+
+#Signup-your-account {
+    margin: 25px 0 30px 85px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#Signup-your-account:hover {
+
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.611);
+
+}
+
+
+.Signup-close-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#Signup-faclose {
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.854);
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+
+#Signup-faclose:hover {
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+
+#addproduct-span-6 {
+    margin-left: 27px;
+    font-weight: 600;
+}
+
+#productcolorselect {
+    margin:7px 0 10px 6px;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    padding: 0 6px;
+    cursor: pointer;
+    color: #464646;
+}
+
